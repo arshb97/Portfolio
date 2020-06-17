@@ -91,7 +91,7 @@ const About = () => {
 
                 <p className="about__text">{description}</p>
 
-                <a href="https://drive.google.com/file/d/1Q7ngzwXB1clwcZC1-oO9ZzwbsHSS7YgC/view?usp=sharing" target="_blank" className="about__cv">
+                <a href="https://drive.google.com/file/d/1uDCy3XT-g_THlw_u6boH5VV5oRDfQmQP/view?usp=sharing" target="_blank" className="about__cv">
                     Resume &nbsp;
                     <i className="ti-file" />
                 </a>
