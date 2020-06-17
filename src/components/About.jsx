@@ -36,12 +36,14 @@ const About = () => {
                 listTitle: 'Dev tools + languages',
                 list: [
                     'NodeJS',
+                    'Docker',
+                    'Kubernetes',
                     'Raspberry Pi',
                     'C++',
                     'Python',
                     'Java',
                     'VHDL',
-                    'PosgreSQL',
+                    'PostgreSQL',
                 ]
             },
             {
