@@ -1,5 +1,4 @@
 import React from 'react';
-
 import HeroFooter from '../img/hero.svg';
 import Logo from '../img/logo.jpg';
 import Memoji from '../img/memoji.png';
@@ -16,10 +15,7 @@ const Hero = () => (
             <h1 className="hero__title">Embedded Systems &amp; Full Stack Developer</h1>
 
             <p className="hero__subtitle">
-                I design &amp; build Mobile, Web and Desktop Apps with a broad focus that includes how the software is
-            </p>
-            <p className="hero__subtitle">
-                 deployed and providing operational support while the software is continually functional.
+                I design &amp; build Mobile and Web Apps with a broad focus that includes how the software is deployed and providing operational support while the software is continually functional.
             </p>
 
             <img src={Memoji} alt="Arshdeep photo" className="hero__memoji" />
