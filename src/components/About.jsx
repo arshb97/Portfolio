@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Design from '../img/computer.svg';
 import MobileApp from '../img/mobile-app.svg';
 import WebApp from '../img/development.svg';

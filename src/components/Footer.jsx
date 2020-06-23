@@ -1,12 +1,11 @@
 import React from 'react';
-
 import Logo from '../img/logo_white.png';
 
 const Footer = () => {
     const renderQuote = () => {
         const quotes = [
             "Hard work beats talent when talent doesn't work hard.",
-            "THe one who practises more in the field, bleeds less in war",
+            "The one who practises more in the field, bleeds less in war",
             'Belive you can and you are halfway there.',
             'Be very careful about what you think. Your thoughts run your life.'
         ];
@@ -34,7 +33,6 @@ const Footer = () => {
             },
             { name: 'Twitter', icon: 'ti-twitter', url: 'https://twitter.com/arshdeepbhullar' }
         ];
-
         return socials.map(social => (
             <a
                 target="_blank"
@@ -48,16 +46,11 @@ const Footer = () => {
         ));
     };
 
-    const currentYear = new Date().getFullYear();
-
     return (
         <footer className="footer">
             <img src={Logo} alt="Arshdeep Logo" className="footer__logo" />
-
             <p className="footer__quote">{renderQuote()}</p>
-
             <div className="footer__social">{renderSocials()}</div>
-            
         </footer>
     );
 };
