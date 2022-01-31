@@ -15,7 +15,7 @@ const About = () => {
                 description:
                     'I have experience developing frontend applications using modern javascript frameworks.',
                 subTitle: 'Things I love designing',
-                subDesc: 'Wireframes, websites, prototypes',
+                subDesc: 'Websites, Wireframes, Prototypes',
                 listTitle: 'Design Tools + Languages',
                 list: [
                     'ReactJS',
@@ -90,10 +90,10 @@ const About = () => {
 
                 <p className="about__text">{description}</p>
 
-                <a href="https://drive.google.com/file/d/1l7pllgtMDx5BFNsvk6nQgGeFOl24tKRH/view?usp=sharing" target="_blank" className="about__cv">
+                {/* <a href="https://drive.google.com/file/d/1l7pllgtMDx5BFNsvk6nQgGeFOl24tKRH/view?usp=sharing" target="_blank" className="about__cv">
                     Resume &nbsp;
                     <i className="ti-file" />
-                </a>
+                </a> */}
             </div>
 
             <div className="about__breakdowns grid grid--padded">{renderBreakdowns()}</div>
